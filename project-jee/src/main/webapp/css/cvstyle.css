@@ -1,0 +1,172 @@
+/* * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.3in;
+    width: 8.5in;
+    height: 12 in;
+    box-shadow: 0 3px 8px -3px rgba (0, 0, 0, 0.7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#sec1 {
+    background-color: rgb(168, 116, 85);
+    width: 29%;
+    float: left;
+    height: 1000px;
+    color: rgb(240, 233, 224);
+
+}
+
+#sec2 {
+    background-color: rgb(245, 245, 237);
+    width: 69%;
+    float: left;
+    height: 1000px;
+
+
+}
+
+.photo img {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+.pres {
+    margin-top: 10px;
+    margin-bottom: 10 px;
+    /* border: 1px solid black; */
+    font-size: 80%;
+    text-align: center;
+
+
+}
+
+p.titre-exp {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 5px auto; 
+    padding: 0px 10px;
+    /* width: 95%; */
+    /* border: 1px solid black; */
+
+}
+
+
+
+p.date {
+    
+    text-align: justify;
+}
+.contact {
+    /* width: 50%; */
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    padding: 20px auto;
+    font-size: 100%;
+}
+
+.titre1 {
+
+    /* width: 50%; */
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+
+.titre2 {
+
+    /* border: 5px solid black; */
+    margin: 20px auto;
+
+
+
+}
+
+.date {
+    width: 90px;
+    margin: 2px 5px;
+    text-align: justify;
+    font-size: 80%;
+    grid-column: 1/2;
+    grid-row: 1;
+   
+}
+
+.titre-exp {
+    width: 400px;
+    font-size: 90%;
+    grid-column: 2/2;
+    grid-row: 1;
+    text-align: left;
+    
+
+}
+
+
+
+.titredroit {
+    margin: 0px 40px;
+}
+
+h3 {
+    margin: 10px auto;
+    padding: 10px auto;
+
+}
+
+h1 {
+    margin: 0px auto;
+}
+
+h5 {
+    font-weight: bold;
+    padding: 10px auto;
+    margin : 7px 10px;
+}
+.entete {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: start;
+    justify-items: stretch;
+    height: 100px;
+
+
+} 
+
+.entete2 {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    /* align-items: start; */
+    justify-content: start;
+    justify-items:  baseline;
+    height: 85px;
+   
+    
+
+
+} 
+
+
+#aboutme {
+    margin-left: 10px;
+}
+
